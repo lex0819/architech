@@ -1,5 +1,10 @@
 package seminar01.ModelElements;
 
+/**
+ * Класс для работы с координатой точки в трехмерном пространстве
+ * x, y, z - координаты
+ * возвращает точку, массив из трех чисел.
+ */
 public class Point3D {
 
     public final int[] point3d = new int[3];

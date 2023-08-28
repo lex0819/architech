@@ -2,6 +2,15 @@ package seminar01.ModelElements;
 
 import java.awt.*;
 
+/**
+ * Класс для работы с источником света
+ * у источника света есть координаты в пространстве типа Point3D
+ * и угол типа Angle3D
+ * как у камеры
+ * кроме того еще есть
+ * сила света от 0 до 100 процентов, где 0 - выключен
+ * и цвет света, объект типа Color из стандартной библиотеки JAVA
+ */
 public class Flash {
     public Point3D location;
     public Angle3D angle3d;
@@ -9,6 +18,20 @@ public class Flash {
     public float power; // from 0% to 100%
 
     public Color color;
+
+    /**
+     * @param x координата камеры в пространстве
+     * @param y координата камеры в пространстве
+     * @param z координата камеры в пространстве
+     * @param angleX угол поворота камеры вверх-вниз
+     * @param angleZ угол поворота камеры вправо-влево
+     * @param pow сила света от 0 до 100
+     * @param r координаты цвета в системе RGB
+     * @param g координаты цвета в системе RGB
+     * @param b координаты цвета в системе RGB
+     * для простоты в конструктор приходят сырые данные,
+     * а не объекты
+     */
     public Flash(int x, int y, int z, int angleX, int angleZ, float pow, int r, int g, int b) {
         this.location = new Point3D(x,y,z);
         this.angle3d = new Angle3D(angleX, angleZ);

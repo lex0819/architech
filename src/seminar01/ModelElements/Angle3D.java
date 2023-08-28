@@ -1,5 +1,11 @@
 package seminar01.ModelElements;
 
+/**
+ * Класс для работы с углами поворота
+ * угол x - вправо-влево
+ * угол z - вверх-вниз
+ * возвращает массив из двух элементов с градусами углов
+ */
 public class Angle3D {
 
     public final int[] angle3d = new int[2];
