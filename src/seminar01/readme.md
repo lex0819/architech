@@ -8,6 +8,7 @@
 
 [Point3D](./ModelElements/Point3D.java) и [Angle3D](./ModelElements/Angle3D.java)
 
+И изменить класс с урока [ModelStore](./InMemoryModel/ModelStore.java)
 
 
 ## Задание 2. Ознакомиться с документацией в свободном формате, которая может пригодиться Вам для дальнейшей работы:
