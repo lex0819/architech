@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+}
+
+.wrap {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.content {
+  margin-top: 1rem;
+  box-sizing: border-box;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  padding: 0.4rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+}
+
+.contact:hover {
+  color: blue;
+  text-shadow: 0 0 1.5rem blue;
+}
+
+.next {
+  display: block;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.contact_list {
+  width: 100%;
+}
+
+.contact_title {
+  text-align: center;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.contact_title_nunber {
+  font-style: italic;
+}
+
+.contact_title_name {
+  color: blue;
+  font-weight: bold;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_my {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: bisque;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.message_other {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: aquamarine;
+  text-align: right;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.message_text {
+  align-self: stretch;
+  margin-bottom: 1rem;
+}
+
+.message_create {
+  align-self: stretch;
+  font-style: italic;
+}
